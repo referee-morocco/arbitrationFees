@@ -11,7 +11,7 @@ function validation(){
     }else if(frais>=2000 && distance<300){
         fraisTotal=distance*2+frais;
     }else if(frais>=2000 && distance>=300){
-        fraisTotal=distance*2+1250+frais;
+        fraisTotal=distance*2+1200+frais;
     }else if(frais<2000 && distance<300){
         fraisTotal=distance*2+frais;
     }else if(frais<2000 && distance>=300){
