@@ -8,13 +8,13 @@ function validation(){
         distance=0;
     }else if(frais==0){
         alert("veuillez choisir la division")
-    }else if(frais>=1200 && distance<300){
+    }else if(frais>=1300 && distance<300){
         fraisTotal=distance*2+frais;
-    }else if(frais>=1200 && distance>=300){
-        fraisTotal=distance*2+1250+frais;
-    }else if(frais<1200 && distance<300){
+    }else if(frais>=1300 && distance>=300){
+        fraisTotal=distance*2+1200+frais;
+    }else if(frais<1300 && distance<300){
         fraisTotal=distance*2+frais;
-    }else if(frais<1200 && distance>=300){
+    }else if(frais<1300 && distance>=300){
         fraisTotal=distance*2+500+frais;
     }
     if(frais > 0 && distance != '')
