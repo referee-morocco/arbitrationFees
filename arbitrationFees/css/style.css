@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Barlow';
-  background-color: #ef2e41;
+  background-color: #187bcd;
   min-width: 300px;
 }
 
@@ -27,6 +27,16 @@ header {
   margin-top: 50px;
 }
 
+header form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 header h1 {
   font-size: 60px;
   margin: 15px;
@@ -39,7 +49,7 @@ header h2 {
   margin: 15px;
   color: #ffffff;
   text-align: center;
-  background-color: #4a20aa;
+  background-color: #03254c;
   width: 600px;
   padding: 5px 15px;
 }
@@ -54,7 +64,7 @@ header h4 {
 header h3 {
   font-size: 35px;
   margin: 15px;
-  color: #ffffff;
+  color: #03254c;
 }
 
 header a {
@@ -62,7 +72,7 @@ header a {
   margin: 10px;
   text-decoration: none;
   color: black;
-  background-color: #4a20aa;
+  background-color: #03254c;
   padding: 10px 30px;
   color: #ffffff;
   font-size: 20px;
@@ -77,7 +87,7 @@ header a {
 
 header a:hover {
   background-color: #ffffff;
-  color: #4a20aa;
+  color: #03254c;
 }
 
 header input, header select, header button {
@@ -104,7 +114,7 @@ header select {
 
 header button {
   width: 630px;
-  background-color: #4a20aa;
+  background-color: #03254c;
   color: #ffffff;
   font-size: 25px;
   cursor: pointer;
@@ -112,13 +122,14 @@ header button {
 
 header #retour {
   width: 80px;
-  margin-top: 50px;
-  background-color: #00e1a1;
+  margin-top: 130px;
+  background-color: #ffffff;
+  color: #03254c;
 }
 
 header #retour:hover {
-  background-color: #ffffff;
-  color: #00e1a1;
+  background-color: #03254c;
+  color: #ffffff;
 }
 
 @media (max-width: 800px) {
